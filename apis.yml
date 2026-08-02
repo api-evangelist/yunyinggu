@@ -1,25 +1,68 @@
 aid: yunyinggu
-name: yunyinggu
-description: yunyinggu is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yunyinggu.png
+name: Yunyinggu (Viewtrix Technology)
+description: >-
+  Yunyinggu Technology (云英谷科技), which rebranded as Viewtrix Technology, is a
+  Shenzhen-based fabless semiconductor company founded in 2012 that designs
+  AMOLED display driver integrated circuits (DDIC) and color-rendering display
+  solutions for smartphones and other devices. By 2024 sales volume it was the
+  largest AMOLED display driver chip supplier in mainland China and the
+  fifth-largest globally, with R&D and operations across Shenzhen, Shanghai,
+  Beijing, and Hong Kong. Backed by Qiming Venture Partners (Series C and
+  extension), Huawei, and Xiaomi, the company completed a Hong Kong IPO. It is a
+  hardware/semiconductor business and publishes no public developer API surface;
+  this profile is retained as a network identity record. The original
+  yunyinggu.com domain no longer resolves and viewtrix.com is a parked
+  domain-for-sale listing.
 url: https://raw.githubusercontent.com/api-evangelist/yunyinggu/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - qiming
+- huawei
+- xiaomi
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-industry: semiconductors
+x-note: >-
+  No public API surface. Fabless semiconductor / display-driver-chip vendor
+  (hardware). Rebranded Yunyinggu -> Viewtrix Technology; yunyinggu.com is dead
+  (NXDOMAIN) and viewtrix.com is a domain-for-sale parking page as of 2026-07-21.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
+- Semiconductors
+- Display
+- Hardware
+- AMOLED
+- Display Driver IC
+- Fabless
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
 - type: Website
-  url: https://yunyinggu.com
+  url: https://viewtrix.com
+- type: Wikipedia
+  url: https://en.wikipedia.org/wiki/Qiming_Venture_Partners
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
