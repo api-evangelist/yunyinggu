@@ -39,7 +39,7 @@ x-note: >-
   No public API surface. Fabless semiconductor / display-driver-chip vendor
   (hardware). Rebranded Yunyinggu -> Viewtrix Technology; yunyinggu.com is dead
   (NXDOMAIN) and viewtrix.com is a domain-for-sale parking page as of 2026-07-21.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
